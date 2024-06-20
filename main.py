@@ -1,5 +1,5 @@
 from battery import Battery
-import timedate
+import time
 
 while True:
     print(str(Battery.get_battery_capacity()) + '%')
