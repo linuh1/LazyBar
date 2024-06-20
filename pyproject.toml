@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lazybar"
+version = "0.1.0"
+description = ""
+authors = ["danimir <nexe1054@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ifcfg = "^0.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
